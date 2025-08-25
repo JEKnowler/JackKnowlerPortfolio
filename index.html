@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        /* General Styles */
+        body {
+            background-color: #040419;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header and Footer */
+        header, footer {
+            background-color: #1A1A1A;
+            border-bottom: 3px solid #00aaff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer {
+            border-top: 3px solid #00aaff;
+            color: #aaa;
+            margin-top: 20px;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .hero h2 {
+            font-size: 32px;
+            color: #00aaff;
+        }
+
+        .hero p {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        /* Navigation */
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #00aaff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Social Icons */
+        .social-icons {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .social-icons a {
+            color: #00aaff;
+            font-size: 24px;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        /* Container */
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        header h1 {
+            color: #00aaff;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 18px;
+            margin-top: 5px;
+            color: #ddd;
+        }
+
+        /* Projects Section */
+        .projects {
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .project-description {
+            max-width: 60%;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .project {
+            background-color: #003a52;
+            padding: 20px;
+            margin: 20px auto;
+            width: 60%;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 170, 255, 0.2);
+        }
+
+        .project img {
+            max-width: 100%;
+            border-radius: 8px;
+            border: 4px solid #ffffff;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .project img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .project p {
+            font-size: 20px;
+            margin-top: 10px;
+            color: #ddd;
+        }
+
+        .project p a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .project p a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Jack Knowler</h1>
+            <p>Game Designer</p>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="uni-projects.html">Uni Projects</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/jackknowler/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to my portfolio!</h2>
+            <p>Hi! I’m Jack Knowler, a passionate Game Designer and Developer with a strong focus on crafting immersive and engaging gaming experiences. 
+            Currently based in Reading, UK, I work at Twinkl, where I design and develop innovative educational games using Unity.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Professional Projects</h2>
+
+            <div class="project-description">
+                <p><strong>Led the design of these games from start to finish, bringing ideas to life through a structured creative process.</strong> 
+                I played a key role in <strong>storyboarding, concepting, game design, and narrative development</strong>, ensuring each game delivered an engaging and meaningful experience. 
+                By <strong>translating learning objectives into captivating gameplay</strong>, I created educational experiences that are both <strong>fun and impactful</strong>. 
+                From crafting <strong>game mechanics and UI/UX</strong> to integrating <strong>interactive elements and challenges</strong>, my work focuses on making learning <strong>engaging, intuitive, and rewarding</strong>.</p>
+            </div>
+
+            <div class="project">
+                <a href="gem-hunter.html">
+                    <img src="images/TitleGemHunter3D.PNG" alt="Gem Hunter 3D">
+                </a>
+                <p><a href="gem-hunter.html">Gem Hunter 3D</a></p>
+            </div>
+
+            <div class="project">
+                <a href="boat-builder.html">
+                    <img src="images/TitleAWinningTeam.PNG" alt="A Winning Team: Boat Builder">
+                </a>
+                <p><a href="boat-builder.html">A Winning Team: Boat Builder</a></p>
+            </div>
+
+            <div class="project">
+                <a href="magical-dash.html">
+                    <img src="images/TitleMagicalDash.PNG" alt="Magical Dash">
+                </a>
+                <p><a href="magical-dash.html">Magical Dash</a></p>
+            </div>
+
+            <div class="project">
+                <a href="egg-ordering.html">
+                    <img src="images/TitleEggOrdering.PNG" alt="Egg Ordering">
+                </a>
+                <p><a href="egg-ordering.html">Scrambled Eggs</a></p>
+            </div>
+
+            <div class="project">
+                <a href="os-explorers.html">
+                    <img src="images/TitleOSExplorers.PNG" alt="OS Explorers">
+                </a>
+                <p><a href="os-explorers.html">OS Explorers</a></p>
+            </div>
+
+            <div class="project">
+                <a href="raccoon-racer.html">
+                    <img src="images/TitleRaccoonRacer.PNG" alt="Raccoon Racer">
+                </a>
+                <p><a href="raccoon-racer.html">Raccoon Racer</a></p>
+            </div>
+
+            <div class="project">
+                <a href="worry-monster.html">
+                    <img src="images/TitleWorryMonster.PNG" alt="Worry Monster">
+                </a>
+                <p><a href="worry-monster.html">Worry Monster</a></p>
+            </div>
+
+            <div class="project">
+                <a href="football-strategy.html">
+                    <img src="images/TitleFootballGame.PNG" alt="PE Football Strategy and Tactics Game">
+                </a>
+                <p><a href="football-strategy.html">PE Football Strategy and Tactics Game</a></p>
+            </div>
+
+            <div class="project">
+                <a href="monkey-mischief.html">
+                    <img src="images/TitleMonkeyMischief.PNG" alt="Monkey Mischief">
+                </a>
+                <p><a href="monkey-mischief.html">Monkey Mischief</a></p>
+            </div>
+
+            <div class="project">
+                <a href="packet-switching.html">
+                    <img src="images/TitlePacketSwitching.PNG" alt="Packet Switching">
+                </a>
+                <p><a href="packet-switching.html">Packet Switching Routes</a></p>
+            </div>
+
+            <div class="project">
+                <a href="guess-the-explorer.html">
+                    <img src="images/TitleGuesstheExplorer.PNG" alt="Guess the Explorer">
+                </a>
+                <p><a href="guess-the-explorer.html">Guess the Explorer</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Jack Knowler | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
